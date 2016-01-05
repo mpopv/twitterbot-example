@@ -1,5 +1,5 @@
-var Twit = require(‘twit’);
-var TwitterBot = require(‘node-twitterbot’).TwitterBot;
+var Twit = require('twit')
+var TwitterBot = require('node-twitterbot').TwitterBot;
 
 var Bot = new TwitterBot({
  consumer_key: process.env.BOT_CONSUMER_KEY,
@@ -19,7 +19,7 @@ var animalArray = ["i like cat",
                    "horse dot com slash horsesarecool",
                    "starfish"
                  ];
-                 
+
 var animal = chooseRandom(animalArray);
 
 Bot.tweet(animal);
