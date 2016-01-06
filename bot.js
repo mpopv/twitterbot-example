@@ -22,7 +22,20 @@ var animalArray = ["i like cat",
                    "DRINK MORE OVALTINE",
                    "frog blast the vent core",
                    "somebody set up us the bomb",
-                   "http://bomb.com"
+                   "http://bomb.com",
+                   "use the force luke",
+                   "sentence",
+                   "s",
+                   "e",
+                   "n",
+                   "t",
+                   "koala bear",
+                   "orca",
+                   "dishwasher",
+                   "placeholder",
+                   "hi",
+                   "lol",
+                   "lmao"
                   ];
 
 var animal = chooseRandom(animalArray);
