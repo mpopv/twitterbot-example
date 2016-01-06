@@ -1,4 +1,4 @@
-var Twit = require('twit')
+var Twit = require('twit');
 var TwitterBot = require('node-twitterbot').TwitterBot;
 
 var Bot = new TwitterBot({
@@ -17,8 +17,13 @@ var animalArray = ["i like cat",
                    "sushi fish yum",
                    "banana",
                    "horse dot com slash horsesarecool",
-                   "starfish"
-                 ];
+                   "starfish",
+                   "rsjn oin oiq nroiuqg iu",
+                   "DRINK MORE OVALTINE",
+                   "frog blast the vent core",
+                   "somebody set up us the bomb",
+                   "http://bomb.com"
+                  ];
 
 var animal = chooseRandom(animalArray);
 
