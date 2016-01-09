@@ -12,32 +12,17 @@ function chooseRandom(myArray) {
   return myArray[Math.floor(Math.random() * myArray.length)];
 }
 
-var animalArray = ["i like cat",
-                   "dog is good pet",
-                   "sushi fish yum",
-                   "banana",
-                   "horse dot com slash horsesarecool",
-                   "starfish",
-                   "rsjn oin oiq nroiuqg iu",
-                   "DRINK MORE OVALTINE",
-                   "frog blast the vent core",
-                   "somebody set up us the bomb",
-                   "http://bomb.com",
-                   "use the force luke",
-                   "sentence",
-                   "s",
-                   "e",
-                   "n",
-                   "t",
-                   "koala bear",
-                   "orca",
-                   "dishwasher",
-                   "placeholder",
-                   "hi",
-                   "lol",
-                   "lmao"
-                  ];
+var phraseArray = [ "hey twitter",
+                    "im tweeting",
+                    "tweet tweet",
+                    "tweetstorm time... 1/22",
+                    "plz RT v important",
+                    "delete ur account",
+                    "it me",
+                    "same",
+                    "#dogpants go on 4 legs!!",
+                    "#thedress is blue and black" ];
 
-var animal = chooseRandom(animalArray);
+var phrase = chooseRandom(phraseArray);
 
-Bot.tweet(animal);
+Bot.tweet(phrase);
